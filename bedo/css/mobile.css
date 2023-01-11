@@ -1,0 +1,177 @@
+body {
+	font-family: Verdana;
+	margin: 0px;
+	font-size: 13px;
+}
+
+.bg {
+	display: flex;
+}
+
+header {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.menu {		
+  list-style-type: none;
+  margin: 0;
+  padding: 15px 0px 15px 0px;
+  overflow: hidden;
+  background-color: #4f3f18;
+}
+
+.menu li {	
+  float: initial;
+}
+
+#logo {
+	float:left!important;
+	padding: 0px 30px;
+	margin-top: 5px;
+}
+
+#logo a {
+	border: 0px;
+	border-radius: 0px;
+	padding: 0px;
+}
+
+.menu li a {	
+  display: block;
+  color: white;
+  text-align: initial;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: initial;
+  border: 5px solid #4f3f18;
+}
+
+.menu li a:hover {
+  background-color: #e2a83b;
+  color: #000;
+}
+
+.active {
+  background-color: #e2a83b;
+  color: #000!important;
+  font-weight: bold;
+}
+
+.burger {
+	display: initial;
+	float: right;
+	padding: 10px 5%;
+}
+
+.burger .line {
+	width: 30px;
+	height: 3px;
+	background-color: #fff;
+	margin: 5px 0;
+}
+
+#mobile {
+	margin-top: 75px;
+	display: none;
+}
+
+.content {
+	display: initial;
+	padding: initial;	
+}
+
+.text {
+	display: inherit;
+}
+
+.contentimage {
+	display: none;
+}
+
+.contentimageshow {
+	width: initial;
+	padding: 0px 5% 0px 5%;
+}
+
+.contentmobileimage {
+	display: initial;
+	padding: 0px 5% 0px 5%;
+}
+
+.inlineimage {
+	margin: auto;
+	padding: 0px 5% 0px 5%;
+}
+
+#computing {
+	display: none;
+}
+
+#design {
+	display: none;
+}
+
+
+
+#textchange {
+	padding: 50px 10% 50px 10%;	
+}
+
+#computingtext {
+	display: none;
+}
+
+#designtext {
+	display: none;
+}
+
+#coursesmobile {
+	display: initial;
+}
+
+h1 {
+	padding: 0px 5% 0px 5%;
+	font-size: 30px;
+}
+
+h2 {
+	padding: 0px 5% 0px 5%;
+}
+
+p {
+	padding: 0px 5% 0px 5%;	
+	font-size: 18px;
+}
+
+footer {
+	position: relative;
+	background-color: #0e0e0e;
+	color: #fff;
+	padding: 75px;
+}
+
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+}
+
+footer li {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer li a:hover {
+	text-decoration: underline;
+	opacity: 0.75;
+}

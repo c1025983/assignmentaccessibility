@@ -1,0 +1,185 @@
+body {
+	font-family: Verdana;
+	margin: 0px;
+}
+
+.bg {
+	display: flex;
+}
+
+header {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px 5% 15px 5%;
+  overflow: hidden;
+  background-color: #4f3f18;
+}
+
+.menu li {
+  float: left;
+}
+
+#logo {
+	float:left!important;
+	padding: 0px 30px;
+	margin-top: 5px;
+}
+
+#logo a {
+	border: 0px;
+	border-radius: 0px;
+	padding: 0px;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 5px solid #4f3f18;
+}
+
+.menu li a:hover {
+  background-color: #e2a83b;
+  color: #000;
+}
+
+.active {
+  background-color: #e2a83b;
+  color: #000!important;
+  font-weight: bold;
+}
+
+.burger {
+	display: none;
+}
+
+.burger .line {
+	width: 35px;
+	height: 5px;
+	background-color: #fff;
+	margin: 6px 0;
+}
+
+#mobile {
+	display: initial;
+}
+
+.content {
+	display: flex;
+	padding: 50px 10% 50px 10%;
+}
+
+.text {
+	flex: 1;
+}
+
+.contentimage {
+	width:40%;
+	padding-left:50px;
+	display: initial;
+}
+
+.contentimageshow {
+	width: 40%;
+	padding: 0px 5% 0px 5%;
+}
+
+.contentmobileimage {
+	display: none;
+}
+
+.inlineimage {
+	padding: 0px 5% 0px 5%;
+}
+
+#computing {
+	flex: 1;
+	width: 60%;
+	overflow: hidden;
+	padding: 0px 50px 0px 0px;
+  	transition: 0.3s;
+  	opacity: 1;
+}
+
+#design {
+	width: 40%;
+	overflow: hidden;
+	padding: 0px 0px 0px 50px;
+  	opacity: 0.6;
+  	transition: 0.3s;
+}
+
+#design:hover {
+	opacity: 1!important;
+	cursor: pointer;
+}
+
+#computing:hover {
+  	opacity: 1!important;	
+	cursor: pointer;
+}
+
+#textchange {
+	padding: 50px 10% 50px 10%;	
+}
+
+#computingtext {
+	display: initial;
+}
+
+#designtext {
+	display: none;
+}
+
+#coursesmobile {
+	display: none;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 18px;
+}
+
+footer {
+	position: relative;
+	background-color: #0e0e0e;
+	color: #fff;
+	padding: 75px;
+}
+
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+}
+
+footer li {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer li a:hover {
+	text-decoration: underline;
+	opacity: 0.75;
+}
